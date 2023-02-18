@@ -5,17 +5,17 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 @Entity
-public class Edu {
+public class Experiencia {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String nombreE;
     private String descripcionE;
 
-    public Edu() {
+    public Experiencia() {
     }
 
-    public Edu(String nombreE, String descripcionE) {
+    public Experiencia(String nombreE, String descripcionE) {
         this.nombreE = nombreE;
         this.descripcionE = descripcionE;
     }
@@ -43,6 +43,5 @@ public class Edu {
     public void setDescripcionE(String descripcionE) {
         this.descripcionE = descripcionE;
     }
-
 
 }

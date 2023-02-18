@@ -2,16 +2,16 @@ package com.portfolio.migue.DTO;
 
 import javax.validation.constraints.NotBlank;
 
-public class dtoExp {
+public class dtoEducacion {
     @NotBlank
     private String nombreE;
     @NotBlank
     private String descripcionE;
 
-    public dtoExp() {
+    public dtoEducacion() {
     }
 
-    public dtoExp(String nombreE, String descripcionE) {
+    public dtoEducacion(String nombreE, String descripcionE) {
         this.nombreE = nombreE;
         this.descripcionE = descripcionE;
     }
@@ -31,5 +31,6 @@ public class dtoExp {
     public void setDescripcionE(String descripcionE) {
         this.descripcionE = descripcionE;
     }
+
 
 }

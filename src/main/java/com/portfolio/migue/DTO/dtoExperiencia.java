@@ -1,31 +1,19 @@
-package com.portfolio.migue.Entity;
+package com.portfolio.migue.DTO;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-@Entity
-public class Exp {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+import javax.validation.constraints.NotBlank;
+
+public class dtoExperiencia {
+    @NotBlank
     private String nombreE;
+    @NotBlank
     private String descripcionE;
 
-    public Exp() {
+    public dtoExperiencia() {
     }
 
-    public Exp(String nombreE, String descripcionE) {
+    public dtoExperiencia(String nombreE, String descripcionE) {
         this.nombreE = nombreE;
         this.descripcionE = descripcionE;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getNombreE() {
