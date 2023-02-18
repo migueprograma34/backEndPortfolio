@@ -30,7 +30,6 @@ D:\ml\migue\src\main\java\com\portfolio\migue\Entity\hys.java
 D:\ml\migue\src\main\java\com\portfolio\migue\Security\DTO\NuevoUsuario.java
 D:\ml\migue\src\main\java\com\portfolio\migue\Security\Service\UsuarioService.java
 D:\ml\migue\src\main\java\com\portfolio\migue\Controller\CEducacion.java
-D:\ml\migue\src\main\java\com\portfolio\migue\Interface\IPersonaService.java
 D:\ml\migue\src\main\java\com\portfolio\migue\Security\JWT\JwtProvider.java
 D:\ml\migue\src\main\java\com\portfolio\migue\Security\MainSecurity.java
 D:\ml\migue\src\main\java\com\portfolio\migue\Controller\CExperiencia.java
