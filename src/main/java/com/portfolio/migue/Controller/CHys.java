@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"https://frontendmigue-cebe0.web.app","http://localhost:4200"})
 @RequestMapping("/skill")
 public class CHys {
 
