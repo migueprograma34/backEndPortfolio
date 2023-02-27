@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 @RestController
 @RequestMapping("/explab")
-@CrossOrigin(origins = {"https://frontendmigue-cebe0.web.app","http://localhost:4200"})
+@CrossOrigin(origins = "https://frontendmigue-cebe0.web.app")
 public class CExperiencia {
     @Autowired
     SExperiencia sExperiencia;
