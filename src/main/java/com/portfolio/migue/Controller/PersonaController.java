@@ -15,7 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/personas")
-@CrossOrigin(origins = "https://frontendmigue-cebe0.web.app")
+@CrossOrigin(origins = "https://backend-migue.web.app")
 public class PersonaController {
     @Autowired
     ImpPersonaService personaService;
