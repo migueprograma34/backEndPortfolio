@@ -1,6 +1,5 @@
 com\portfolio\migue\Security\Controller\Mensaje.class
 com\portfolio\migue\Security\DTO\LoginUsuario.class
-com\portfolio\migue\Security\MainSecurity$1.class
 com\portfolio\migue\Security\Service\UsuarioService.class
 com\portfolio\migue\Security\JWT\JwtTokenFilter.class
 com\portfolio\migue\Security\Repository\UsuarioRepository.class
