@@ -63,7 +63,7 @@ public class MainSecurity extends WebSecurityConfigurerAdapter {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**").allowedOrigins("https://miguel-17b4a.web.app").allowedMethods("*").allowedHeaders("*");
+                registry.addMapping("/**").allowedOrigins("https://migue-web.web.app").allowedMethods("*").allowedHeaders("*");
             }
         };
     }
