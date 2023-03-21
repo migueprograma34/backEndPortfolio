@@ -12,15 +12,5 @@ public class MigueApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MigueApplication.class, args);
 	}
-	@Bean
-	public WebMvcConfigurer corsConfigurer() {
-		return new WebMvcConfigurer() {
-			@Override
-			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/**").allowedOrigins("https://backend-migue.web.app")
-						.allowedMethods("*").allowedHeaders("*");
-			}
-		};
-	}
 
 }
